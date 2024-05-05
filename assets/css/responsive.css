@@ -4,6 +4,7 @@
 
 /* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* Topbar Area */
   .top-bar-area .row {
     justify-content: center;
@@ -237,13 +238,7 @@
     display: block;
   }
 
-  .event-area.flex-less
-    .event-items
-    .item
-    .info-box
-    .content
-    .bottom
-    a:last-child {
+  .event-area.flex-less .event-items .item .info-box .content .bottom a:last-child {
     display: block;
     margin-top: 25px;
   }
@@ -285,6 +280,7 @@
   .portfolio-area .portfolio-items.col-4 .pf-item {
     width: 50%;
   }
+
 
   /* Blog */
   .blog-area.left-sidebar .blog-content {
@@ -342,8 +338,10 @@
   }
 }
 
+
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
   /* Heading */
   h1 {
     font-size: 30px;
@@ -468,14 +466,14 @@
   .banner-area .carousel.top-pad .content {
     padding-top: 60px;
     padding-bottom: 40px;
-    /*padding-top: 110px;*/
-    /*padding-bottom: 80px;*/
+  /*padding-top: 110px;*/
+  /*padding-bottom: 80px;*/
   }
-  /* imran*/
-  #bootcarousel .content h3 {
-    font-weight: normal;
-    font-size: 16px;
-  }
+    /* imran*/
+    #bootcarousel .content h3 {
+        font-weight: normal;
+        font-size: 16px;
+    }
 
   .banner-area .content h1 {
     font-size: 36px;
@@ -500,23 +498,21 @@
     padding: 0;
   }
 
-  body,
-  .banner-area,
-  .banner-area div {
+  body, .banner-area, .banner-area div {
     /*height: auto;*/
   }
-  /*  Imran Start  */
-  #homeBanner {
-    height: 375px;
-    margin-top: 80px;
-  }
-  .banner-area #bottom-content {
-    display: none;
-  }
-  .banner-area #bottom-content-title {
-    display: none;
-  }
-  /* Imran End */
+    /*  Imran Start  */
+    #homeBanner {
+        height: 375px;
+        margin-top: 80px;
+    }
+    .banner-area #bottom-content {
+        display: none;
+    }
+    .banner-area #bottom-content-title {
+        display: none;
+    }
+    /* Imran End */
 
   .banner-area .content {
     overflow: hidden;
@@ -567,27 +563,27 @@
   }
 
   .banner-area .double-items h2 {
-    font-size: 36px;
-  }
+  font-size: 36px;
+}
 
-  .banner-area .double-items .thumb {
-    padding-left: 15px;
-    margin-top: 30px;
-    text-align: center;
-  }
+.banner-area .double-items .thumb {
+  padding-left: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
 
-  .banner-area .double-items .thumb img {
-    max-width: 80%;
-    margin: auto;
-  }
+.banner-area .double-items .thumb img {
+  max-width: 80%;
+  margin: auto;
+}
 
-  .banner-area .content.text-uppercase h2 {
-    font-size: 36px;
-  }
+.banner-area .content.text-uppercase h2 {
+  font-size: 36px;
+}
 
-  .banner-area.bg-gradient .double-items {
-    padding-top: 50px;
-  }
+.banner-area.bg-gradient .double-items {
+  padding-top: 50px;
+}
 
   /* About */
   .about-area .about-items .about-info {
@@ -646,8 +642,8 @@
   }
 
   .about-area .fun-fact-items .item {
-    border: none;
-    margin-bottom: 50px;
+      border: none;
+      margin-bottom: 50px;
   }
 
   .about-area .fun-fact-items .item:last-child {
@@ -660,8 +656,8 @@
   }
 
   .features-area.fixed {
-    top: 0;
-    margin-bottom: 0;
+      top: 0;
+      margin-bottom: 0;
   }
 
   .features-area.default-padding-bottom.bottom-less {
@@ -689,10 +685,10 @@
   }
 
   .search-area.top-less-pad .search-course-box {
-    top: 0;
-    margin-bottom: 0;
-    padding: 50px 30px;
-    text-align: center;
+      top: 0;
+      margin-bottom: 0;
+      padding: 50px 30px;
+      text-align: center;
   }
 
   .search-area.top-less-pad .search-course-box > .row {
@@ -700,12 +696,12 @@
   }
 
   .search-area.top-less-pad .search-course-box form {
-    border-left: none;
-    padding-left: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 30px;
-    padding-top: 30px;
-  }
+      border-left: none;
+      padding-left: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      margin-top: 30px;
+      padding-top: 30px;
+    }
 
   /* Courses */
   .weekly-top-items .top-courses {
@@ -773,12 +769,13 @@
   }
 
   .top-course-items .info .meta ul {
-    display: block;
+      display: block;
   }
 
   .top-course-items .info .meta ul li {
     margin-bottom: 10px;
   }
+
 
   /* Courses Details */
   .course-details-area .courses-info {
@@ -943,6 +940,7 @@
     margin-top: 50px;
   }
 
+
   /* Advisor */
   .advisor-details-area .content {
     margin-top: 30px;
@@ -976,6 +974,7 @@
     text-align: center;
   }
 
+
   /* Offer */
   .offer-area .content h2 {
     font-size: 36px;
@@ -985,6 +984,8 @@
   .offer-area .content form {
     width: 90%;
   }
+
+
 
   /* Registration */
   .registration-area .fixed-bg {
@@ -1271,16 +1272,16 @@
 
   /* Login Page */
   .login-area form {
-    margin: 0;
+      margin: 0;
   }
 
   form.white-popup-block label {
-    width: 100%;
+      width: 100%;
   }
 
   form.white-popup-block .lost-pass-link {
-    float: left;
-    margin-bottom: 8px;
+      float: left;
+      margin-bottom: 8px;
   }
 
   /* 400 */
@@ -1346,6 +1347,7 @@
 
 /* Max Wide Mobile Layout: 600px. */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+
   .attr-nav.inc-btn {
     display: inline-block;
   }
@@ -1394,6 +1396,7 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   .side {
     padding: 50px;
     width: 400px;
@@ -1445,10 +1448,12 @@
     margin-top: 0;
   }
 
+
   /* Offer */
   .offer-area .content form {
     width: 400px;
   }
+
 
   /* Registrationg */
 
@@ -1542,18 +1547,18 @@
     text-align: left;
   }
 
-  /* Login Page */
+   /* Login Page */
   .login-area form {
-    margin: 0 30px;
+      margin: 0 30px;
   }
 
   form.white-popup-block label {
-    width: auto;
+      width: auto;
   }
 
   form.white-popup-block .lost-pass-link {
-    float: right;
-    margin-bottom: 0;
+      float: right;
+      margin-bottom: 0;
   }
 
   /* Footer */
@@ -1576,6 +1581,7 @@
     padding-right: 0;
   }
 }
+
 
 @media (min-width: 767px) {
   .hidden-login {

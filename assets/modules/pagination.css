@@ -1,0 +1,25 @@
+.pagination>li>a,
+.pagination>li>span {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #002147;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #ffb606;
+    border-color: #ffb606;
+}

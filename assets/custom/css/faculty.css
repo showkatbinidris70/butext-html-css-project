@@ -1,0 +1,101 @@
+.min-height-130px {
+    height: 130px;
+}
+
+.min-height-45px {
+    height: 45px;
+}
+
+.min-height-100px {
+    height: 70px;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+
+.image-showing {
+    width: 250px;
+}
+
+
+
+.img-min-width {
+	width: 800px;
+}
+
+.img-min-height {
+    height: 250px;
+}
+
+.card-img-height {
+	height: 200px;
+}
+
+.banner-area {
+    position: relative;
+    height: 460px;
+}
+
+.banner-heading {
+    font-size: 40px !important;
+}
+
+.min-height-60px {
+    height: 60px;
+}
+
+.chair-msg {
+    height: 200px!important;
+    box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+    background: #ffffff;
+    /*padding: 5px;*/
+    padding-right: 10px !important;
+    padding-bottom: 7px !important;
+    float: left!important;
+    width: 200px!important;
+}
+
+/*******************************
+* Does not work properly if "in" is added after "collapse"
+*******************************/
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    /*background: #002147;*/
+    background: #1C4370;
+    color: white;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+
+a.top_mail_link:hover {
+    color: #ffb606;
+}
