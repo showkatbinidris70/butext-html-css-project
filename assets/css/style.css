@@ -557,26 +557,36 @@ input {
   background: transparent;
 }
 
-.bg-dark {
-  /* content: ""; */
+/* .bg-dark {
   background: #002147 none repeat scroll 0 0;
   background-image: url(../../assets/img/home/cropped-Thumb-Logo-270x270.png);
   background-position: center center;
   background-size: 250px;
   background-repeat: no-repeat;
   border-top: 2px solid #ffb606;
-  opacity: 0.9;
-  /* filter: blur(2px); */
-  /* -webkit-filter: brightness(50%); Chrome, Safari, Opera  */
-  /* filter: brightness(50%); */
-  /* background-image: url('https://placekitten.com/1200/800'); */
-  /* background-size: cover; */
-  /* position: absolute; */
-  /* top: 0px; */
-  /* right: 0px; */
-  /* bottom: 0px; */
-  /* left: 0px; */
-  /* opacity: 0.5; */
+  opacity: 0.5;
+} */
+.bg-dark {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 33, 71, 1); /* Background color without opacity */
+  border-top: 2px solid #ffb606;
+}
+
+.bg-dark::before {
+  content: "";
+  background-image: url(../../assets/img/home/cropped-Thumb-Logo-270x270.png);
+  background-position: center center;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4; /* Opacity for the background image */
 }
 
 .bg-dark-top {
@@ -7623,41 +7633,3 @@ hr.style-six {
 .advisor-details-area .advisor-info .thumb .infoNew li.dribbble a {
   background: #ea4c89;
 }
-
-/* p::first-letter { */
-/* color: #ff0000; */
-/* font-size: xx-large; */
-/* } */
-/*  */
-/* p::first-line { */
-/* color: #0000ff; */
-/* font-variant: small-caps; */
-/* } */
-
-/* h1::before { */
-/* content: url(smiley.gif); */
-/* } */
-/* h1::after { */
-/* content: url(sm::-moz-selection { /* Code for Firefox */
-/* color: red; */
-/* background: yellow; */
-/* } */
-/*  */
-/* ::selection { */
-/* color: red; */
-/* background: yellow; */
-/* } */
-
-/* p::before { */
-/* content: "Read this -"; */
-/* } */
-/* p::before {  */
-/* content: "Read this -"; */
-/* background-color: yellow; */
-/* color: red; */
-/* font-weight: bold; */
-/* } */
-/* Add a heart before links */
-/* a::before { */
-/* content: "♥"; */
-/* } */
