@@ -571,7 +571,7 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 33, 71, 1) !important;
+  background: rgba(0, 33, 71, 1); /* Background color without opacity */
   border-top: 2px solid #ffb606;
 }
 
